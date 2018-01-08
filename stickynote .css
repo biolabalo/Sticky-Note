@@ -1,0 +1,120 @@
+body{
+    background-color:cadetblue;
+    padding: 10px;
+  
+   
+}
+
+#box{
+    display:inline-block;
+    margin: 5px;
+}
+
+#box1{
+    display:inline-block;
+    margin: 5px;
+}
+
+
+#btn2{
+    cursor: pointer;
+  background-color:grey;
+    color:white;
+}
+
+.textcolor{
+    
+    font-size: 10px;
+}
+
+#btn2:hover{
+   width:50px
+       
+}
+
+
+
+
+input:focus {
+    border: 3px solid darkblue;
+}
+ 
+
+input {
+    background-color: burlywood ;
+    height: 40px;
+    width:80%;
+    padding-left:5px; 
+     border:1px solid burlywood;
+    margin-top: 6px;
+    margin-left: 3px;
+    
+}
+
+textarea{
+    background-color: burlywood;
+    color: dimgray;
+    font-size: 1000px;
+     font-weight: 600;
+    width: 100%;
+    height: 100px;
+    resize:none;
+    border:1px solid burlywood
+}
+
+
+textarea:focus {
+    border: 3px solid navyblue;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#box{
+    border-radius: 15px;
+    border:5px solid black;
+    margin: 25px;
+    width:250px;
+    background-color: burlywood;
+    height:190px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px grey;
+     -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+}
+
+
+
+#box:hover{
+    
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    
+       
+}
